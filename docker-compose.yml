@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: dashboard:0.0.1
+    ports:
+      - "1111:80"
+    container_name: dashboard

@@ -10,6 +10,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- sidebar start -->
       <aside id="sidebar">
         <div class="d-flex">
           <button id="toggle-btn" type="button">
@@ -113,16 +114,27 @@
           </li>
         </ul>
         <div class="sidebar-footer">
-          <a href="#" class="sidebar-lik">
+          <a href="#" class="sidebar-link">
             <i class="lni lni-exit"></i>
             <span>Logout</span>
           </a>
         </div>
-      </aside>      
-        <div class="main p-3">
-          
-        </div>
-      
+      </aside>
+      <!-- sidebar end -->
+      <div class="main p-3">
+        <!-- nav start -->
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="input-group" role="search">
+              <input type="search" class="form-control" placeholder="Tuliskan disini.." aria-label="search" name="search" id="search"
+              >
+              <button class="btn"><i class="lni lni-search-alt"></i></button>
+            </form>
+            <!-- <a class="navbar-brand">OSIIE</a> -->
+          </div>
+        </nav>
+        <!-- nav end -->
+      </div>
     </div>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="asset/script.js"></script>
