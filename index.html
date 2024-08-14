@@ -10,6 +10,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- sidebar start -->
       <aside id="sidebar">
         <div class="d-flex">
           <button id="toggle-btn" type="button">
@@ -113,19 +114,26 @@
           </li>
         </ul>
         <div class="sidebar-footer">
-          <a href="#" class="sidebar-lik">
+          <a href="#" class="sidebar-link">
             <i class="lni lni-exit"></i>
             <span>Logout</span>
           </a>
         </div>
       </aside>
-      <div>
-        <div class="main p-3">
-          <div class="text-center">
-            <h1>Huhuhu</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita officiis molestias tempore rerum impedit. Expedita excepturi vel neque nobis possimus dicta cum error. Quibusdam reiciendis, similique soluta consequuntur quaerat, dignissimos esse officiis, autem consectetur cumque atque repudiandae sit. Laudantium ducimus animi deleniti facere veritatis? Earum dolorum delectus explicabo culpa ad.</p>
+      <!-- sidebar end -->
+      <div class="main p-3">
+        <!-- nav start -->
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="input-group" role="search">
+              <input type="search" class="form-control " placeholder="Tuliskan disini.." aria-label="search" name="search" id="search"
+              >
+              <button class="btn"><i class="lni lni-search-alt"></i></button>
+            </form>
+            <!-- <a class="navbar-brand">OSIIE</a> -->
           </div>
-        </div>
+        </nav>
+        <!-- nav end -->
       </div>
     </div>
 

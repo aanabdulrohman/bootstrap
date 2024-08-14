@@ -121,3 +121,7 @@ a.sidebar-link:hover{
     transform: rotate(45deg);
     transition: all .2s ease-out;
 }
+
+#search, .btn{
+  border: solid 1.3px #E7E8D8;
+}
